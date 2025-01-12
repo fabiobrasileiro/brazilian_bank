@@ -10,7 +10,7 @@ const BankCard = ({ account, userName, showBalance = true }: CreditCardProps) =>
                 <div className="bank-card_content">
                     <div className="">
                         <h1 className="text-16 font-semibold text-white">
-                            {account.name || userName}
+                            {userName}
                         </h1>
                         <p className="font-ibm-plex-serif from-black text-white">
 
